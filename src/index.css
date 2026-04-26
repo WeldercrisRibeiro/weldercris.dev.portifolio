@@ -35,18 +35,20 @@
 
     --radius: 1rem;
 
-    /* Custom brand tokens */
-    --brand-orange: 25 100% 50%;
-    --brand-purple: 264 100% 59%;
+    /* Custom brand tokens — paleta monocromática laranja
+       Para reintroduzir um acento secundário (ex.: roxo), basta alterar
+       --brand-purple para outro HSL. Todo o site usa essas variáveis. */
+    --brand-orange: 25 100% 50%;          /* #FF6A00 — laranja principal */
+    --brand-purple: 18 100% 45%;          /* tom laranja-âmbar p/ profundidade no degradê */
     --brand-bg: 0 0% 5%;
 
     --gradient-brand: linear-gradient(135deg, hsl(var(--brand-orange)), hsl(var(--brand-purple)));
     --gradient-brand-soft: linear-gradient(135deg, hsl(var(--brand-orange) / 0.15), hsl(var(--brand-purple) / 0.15));
-    --gradient-radial: radial-gradient(circle at 50% 0%, hsl(var(--brand-purple) / 0.18), transparent 60%);
+    --gradient-radial: radial-gradient(circle at 50% 0%, hsl(var(--brand-orange) / 0.18), transparent 60%);
 
     --shadow-glow-orange: 0 0 40px hsl(var(--brand-orange) / 0.35);
-    --shadow-glow-purple: 0 0 40px hsl(var(--brand-purple) / 0.35);
-    --shadow-glow-mix: 0 10px 60px -15px hsl(var(--brand-orange) / 0.35), 0 10px 60px -15px hsl(var(--brand-purple) / 0.35);
+    --shadow-glow-purple: 0 0 40px hsl(var(--brand-orange) / 0.35);
+    --shadow-glow-mix: 0 10px 60px -15px hsl(var(--brand-orange) / 0.4), 0 10px 60px -15px hsl(var(--brand-orange) / 0.25);
 
     --transition-smooth: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
   }
