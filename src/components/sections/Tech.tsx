@@ -6,7 +6,7 @@ const technologies = [
   { name: "Node.js", slug: "nodejs" },
   { name: "Python", slug: "python" },
   { name: "PostgreSQL", slug: "postgresql" },
-  { name: "SQL Server", slug: "mssql" },
+  { name: "SQL Server", slug: "mssql", customIcon: "/sqlserver.svg" },
   { name: "Docker", slug: "docker" },
   { name: "TailwindCSS", slug: "tailwind" },
   { name: "HTML", slug: "html" },
@@ -27,7 +27,7 @@ const tools = [
   { name: "InnoSetup", slug: "innosetup", customIcon: "https://raw.githubusercontent.com/jrsoftware/issrc/main/Graphics/InnoSetup.png" },
   { name: "Power BI", slug: "powerbi", customIcon: "https://cdn.simpleicons.org/powerbi" },
   { name: "Figma", slug: "figma" },
-  { name: "Antigravity", slug: "antigravity", customIcon: "https://img.icons8.com/fluency/48/artificial-intelligence.png" },
+  { name: "Antigravity", slug: "antigravity", customIcon: "/antigravity-color.svg" },
 ];
 
 export const Tech = () => {
