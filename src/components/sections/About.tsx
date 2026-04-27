@@ -2,8 +2,8 @@ import { Code2, Sparkles, Rocket } from "lucide-react";
 
 const stats = [
   { label: "Stacks dominadas", value: "8+" },
-  { label: "Projetos entregues", value: "20+" },
-  { label: "Anos de código", value: "3+" },
+  { label: "Clientes atendidos", value: "2" },
+  { label: "Tempo de código", value: "1" },
 ];
 
 export const About = () => {

@@ -36,7 +36,7 @@ export const Hero = () => {
 
           <h1 className="reveal font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance">
             <span className="text-foreground">Weldercris</span>
-            <span className="gradient-text animate-gradient-shift bg-[length:200%_200%]">.dev</span>
+            <span className="gradient-text animate-gradient-shift bg-[length:200%_200%]"> Ribeiro</span>
           </h1>
 
           <p className="reveal mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance">

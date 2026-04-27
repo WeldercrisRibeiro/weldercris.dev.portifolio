@@ -16,27 +16,28 @@ export const CustomCursor = () => {
     return () => mql.removeEventListener?.("change", onChange);
   }, []);
 
+  const mouse = useRef({ x: 0, y: 0 });
+  const ring = useRef({ x: 0, y: 0 });
+
   useEffect(() => {
     if (!enabled) return;
 
-    let mouseX = 0, mouseY = 0;
-    let ringX = 0, ringY = 0;
     let raf = 0;
 
     const move = (e: MouseEvent) => {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
+      mouse.current.x = e.clientX;
+      mouse.current.y = e.clientY;
       if (dotRef.current) {
-        dotRef.current.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0) translate(-50%, -50%)`;
+        dotRef.current.style.transform = `translate3d(${mouse.current.x}px, ${mouse.current.y}px, 0) translate(-50%, -50%)`;
       }
       if (hidden) setHidden(false);
     };
 
     const animate = () => {
-      ringX += (mouseX - ringX) * 0.18;
-      ringY += (mouseY - ringY) * 0.18;
+      ring.current.x += (mouse.current.x - ring.current.x) * 0.18;
+      ring.current.y += (mouse.current.y - ring.current.y) * 0.18;
       if (ringRef.current) {
-        ringRef.current.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) translate(-50%, -50%) scale(${hovering ? 1.6 : 1})`;
+        ringRef.current.style.transform = `translate3d(${ring.current.x}px, ${ring.current.y}px, 0) translate(-50%, -50%) scale(${hovering ? 1.6 : 1})`;
       }
       raf = requestAnimationFrame(animate);
     };

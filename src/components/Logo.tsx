@@ -21,31 +21,33 @@ export const Logo = ({ className = "", size = 40, withGlow = false }: LogoProps)
           <stop offset="1" stopColor="hsl(var(--brand-purple))" />
         </linearGradient>
       </defs>
-      {/* W = two V's */}
+      {/* W = stylized zigzag */}
       <path
-        d="M10 18 L20 46 L26 32 L32 46 L38 32 L44 46 L54 18"
+        d="M16 22 L24 42 L32 26 L40 42 L48 22"
         stroke="url(#logo-grad)"
-        strokeWidth="3.5"
+        strokeWidth="4.5"
         strokeLinecap="round"
         strokeLinejoin="round"
         fill="none"
       />
-      {/* </> brackets */}
+      {/* < > brackets */}
       <path
-        d="M8 24 L4 32 L8 40"
+        d="M10 26 L6 32 L10 38"
         stroke="url(#logo-grad)"
-        strokeWidth="2.2"
+        strokeWidth="2.8"
         strokeLinecap="round"
         strokeLinejoin="round"
-        opacity="0.75"
+        fill="none"
+        opacity="0.8"
       />
       <path
-        d="M56 24 L60 32 L56 40"
+        d="M54 26 L58 32 L54 38"
         stroke="url(#logo-grad)"
-        strokeWidth="2.2"
+        strokeWidth="2.8"
         strokeLinecap="round"
         strokeLinejoin="round"
-        opacity="0.75"
+        fill="none"
+        opacity="0.8"
       />
     </svg>
   );

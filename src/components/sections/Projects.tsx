@@ -14,9 +14,6 @@ const projects: Project[] = [
   { name: "project-name", description: "Descrição curta do projeto. Substitua por um caso real.", techs: ["React", "TypeScript"], stars: 0, forks: 0 },
   { name: "project-name", description: "Descrição curta do projeto. Substitua por um caso real.", techs: ["C#", "SQL Server"], stars: 0, forks: 0 },
   { name: "project-name", description: "Descrição curta do projeto. Substitua por um caso real.", techs: ["Node.js", "React"], stars: 0, forks: 0 },
-  { name: "project-name", description: "Descrição curta do projeto. Substitua por um caso real.", techs: ["JavaScript", "API"], stars: 0, forks: 0 },
-  { name: "project-name", description: "Descrição curta do projeto. Substitua por um caso real.", techs: ["TypeScript", "Tailwind"], stars: 0, forks: 0 },
-  { name: "project-name", description: "Descrição curta do projeto. Substitua por um caso real.", techs: ["Automação", "Python"], stars: 0, forks: 0 },
 ];
 
 export const Projects = () => {
@@ -33,7 +30,7 @@ export const Projects = () => {
             </h2>
           </div>
           <a
-            href="https://github.com/"
+            href="https://github.com/WeldercrisRibeiro"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors self-start md:self-auto"

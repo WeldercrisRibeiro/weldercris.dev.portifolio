@@ -1,10 +1,10 @@
 import { Mail, Github, Linkedin, MessageCircle, ArrowUpRight } from "lucide-react";
 
 const contacts = [
-  { icon: Mail, label: "Email", value: "contato@weldercris.dev", href: "mailto:contato@weldercris.dev" },
-  { icon: Github, label: "GitHub", value: "@weldercris", href: "https://github.com/" },
-  { icon: Linkedin, label: "LinkedIn", value: "/in/weldercris", href: "https://linkedin.com/" },
-  { icon: MessageCircle, label: "WhatsApp", value: "Conversar agora", href: "https://wa.me/" },
+  { icon: Mail, label: "Email", value: "weldercris.ribeiro.dev@gmail.com", href: "mailto:weldercris.ribeiro.dev@gmail.com" },
+  { icon: Github, label: "GitHub", value: "@weldercris", href: "https://github.com/WeldercrisRibeiro" },
+  { icon: Linkedin, label: "LinkedIn", value: "/in/weldercris", href: "https://www.linkedin.com/in/weldercris-ribeiro/" },
+  { icon: MessageCircle, label: "WhatsApp", value: "Conversar agora", href: "https://wa.me/5585991970045" },
 ];
 
 export const Contact = () => {
