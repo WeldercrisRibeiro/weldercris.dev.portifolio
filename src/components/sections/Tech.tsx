@@ -32,7 +32,7 @@ const tools = [
 
 export const Tech = () => {
   return (
-    <section id="tecnologias" className="relative py-24 md:py-32">
+    <section id="tecnologias" className="relative py-16 md:py-32">
       <div className="container">
         {/* Technologies Section */}
         <div className="reveal text-center max-w-2xl mx-auto mb-12">
@@ -47,7 +47,7 @@ export const Tech = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-5 mb-24">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-5 mb-16">
           {technologies.map((t, i) => (
             <TechCard key={t.name} tech={t} index={i} />
           ))}

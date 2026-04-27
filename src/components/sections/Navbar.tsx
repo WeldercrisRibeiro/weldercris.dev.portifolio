@@ -27,7 +27,7 @@ export const Navbar = () => {
         scrolled ? "py-3" : "py-5"
       }`}
     >
-      <div className="container">
+      <div className="container px-4">
         <nav
           className={`flex items-center justify-between rounded-2xl px-4 py-3 transition-all duration-500 ${
             scrolled ? "glass-strong shadow-glow-mix" : "glass"

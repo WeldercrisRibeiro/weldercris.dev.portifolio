@@ -20,7 +20,7 @@ const services = [
 
 export const Services = () => {
   return (
-    <section id="servicos" className="relative py-24 md:py-32">
+    <section id="servicos" className="relative py-16 md:py-32">
       <div className="container">
         <div className="reveal text-center max-w-2xl mx-auto mb-16">
           <p className="font-mono text-xs text-brand-purple tracking-[0.3em] uppercase mb-4">

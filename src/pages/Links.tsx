@@ -1,6 +1,5 @@
 import { Github, Linkedin, MessageCircle, Globe, ArrowRight } from "lucide-react";
 import { Logo } from "@/components/Logo";
-import { CustomCursor } from "@/components/CustomCursor";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const links = [
@@ -39,7 +38,6 @@ const Links = () => {
 
   return (
     <div className="relative min-h-screen bg-background text-foreground overflow-x-clip flex flex-col items-center py-20 px-6">
-      <CustomCursor />
       
       {/* Background layers */}
       <div className="absolute inset-0 -z-10 grid-bg opacity-40" aria-hidden />

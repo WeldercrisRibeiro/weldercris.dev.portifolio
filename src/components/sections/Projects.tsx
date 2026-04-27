@@ -18,7 +18,7 @@ const projects: Project[] = [
 
 export const Projects = () => {
   return (
-    <section id="projetos" className="relative py-24 md:py-32">
+    <section id="projetos" className="relative py-16 md:py-32">
       <div className="container">
         <div className="reveal flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
           <div>

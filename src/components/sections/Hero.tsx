@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <section
       id="top"
-      className="relative isolate overflow-hidden pt-36 pb-24 md:pt-44 md:pb-36"
+      className="relative isolate overflow-hidden min-h-screen w-full flex items-center pt-20 pb-12 md:pt-0 md:pb-0"
     >
       {/* Background layers */}
       <div className="absolute inset-0 -z-10 grid-bg" aria-hidden />

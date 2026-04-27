@@ -8,7 +8,7 @@ const stats = [
 
 export const About = () => {
   return (
-    <section id="sobre" className="relative py-24 md:py-32">
+    <section id="sobre" className="relative py-16 md:py-32">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="reveal">
